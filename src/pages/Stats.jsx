@@ -17,7 +17,7 @@ function Stats() {
       {completed ? (
         <p>✅ You have completed at least one detox session!</p>
       ) : (
-        <p>❌ No detox session completed yet.</p>
+        <p>Detox session completed today!</p>
       )}
     </div>
   );
