@@ -1,7 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"; 
+import { Link } from "react-router-dom";
+
 
 function Home() {
-  const [time, setTime] = useState(5);
+  const [time, setTime] = useState(10);
   const [finished, setFinished] = useState(false);
 
   useEffect(() => {
@@ -26,8 +28,21 @@ function Home() {
         <p>Time remaining: {time}</p>
       ) : (
         <h2>✅ Detox session completed</h2>
-      )}
-    </div>
+      )} 
+
+      <div className="nav-buttons">
+  <Link to="/about">
+    <button>⬅ About</button>
+  </Link>
+
+  {finished && (
+    <Link to="/stats">
+      <button>View Stats ➡</button>
+    </Link>
+  )}
+</div>
+
+    </div> 
   );
 }
 
