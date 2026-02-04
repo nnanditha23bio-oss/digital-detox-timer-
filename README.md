@@ -1,16 +1,50 @@
-# React + Vite
+# Project Title
+# Digital Detox Timer
+A React-based web application designed to help users reduce screen time and practice mindful digital usage.  
+The app allows users to track focus sessions, view statistics, and understand the importance of digital detoxing.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
+The objective of this project is to design and develop a multi-page web application using React that demonstrates component-based architecture, routing, and proper navigation and maintain versions(version control).
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- HTML
+- CSS
+- JavaScript
+- Git and GitHub
+- GitBash 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Features
+- Multi-page navigation (Home, About, Stats)
+- Reusable button components
+- Clean UI design
+- Responsive layout
+- GitHub version control with commits
 
-## React Compiler
+## Project Structure
+- Home page: Main landing page of the application
+- About page: Information about the project
+- Stats page: Displays statistics-related content
+- Navigation buttons for page switching
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tools & Concepts Used
+- React components
+- React Router
+- CSS styling
+- GitHub commits and pull requests
+- Merging
+- Branching 
 
-## Expanding the ESLint configuration
+## How to Run the Project
+1. Clone the repository
+2. Open the project folder in VS Code
+3. Run `npm install`
+4. Run `npm start file name`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Learning Outcome
+Through this project, I learned React component structure, routing , navigation, debugging UI issues, and using GitHub for proper version control.
+
+## Made By - 
+Nanditha Nambiar 
+Roll No.- 7424 
+
