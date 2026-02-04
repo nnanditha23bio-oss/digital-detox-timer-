@@ -45,6 +45,6 @@ The objective of this project is to design and develop a multi-page web applicat
 Through this project, I learned React component structure, routing , navigation, debugging UI issues, and using GitHub for proper version control.
 
 ## Made By - 
-Nanditha Nambiar 
+Nanditha Nambiar ,  
 Roll No.- 7424 
 
